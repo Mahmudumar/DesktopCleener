@@ -57,6 +57,7 @@ database = {
 After configuring the dictionary, run the script from the command line to start organizing your desktop files:
 
 ```bash
+
 python desktop_cleener.py
 ```
 
@@ -71,5 +72,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 
 Thanks to all the contributors who have helped shape this project. Your contributions are greatly appreciated!
-
-Including upcoming enhancements in your README not only informs users about what improvements to expect but also demonstrates your commitment to developing and refining your application.
