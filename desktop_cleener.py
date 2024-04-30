@@ -1,55 +1,27 @@
 
 """
-An application that takes the files and folders from the desktop
-and puts it in the respective folder
+Desktop Cleener is a Python script designed to organize and clean up your desktop by moving files into predefined libraries based on their file types.
 
+Features:
+- Automatically sorts files from the desktop into corresponding folders like Documents, Music, Pictures, and Videos.
+- Allows user-defined file type associations via an in-script dictionary.
+- Provides a real-time progress bar and detailed logs of the file sorting process.
 
-but i will begin with saying, a tool that takes files from desktop and 
-takes them to their respective libraries.
+Usage:
+1. Modify the 'database' dictionary in the script to customize file types and target directories.
+2. Run the script to sort files on the desktop according to the defined settings.
 
-1. Take files
-    -get all files in desktop
-    TODO:#perform a recursive search and get all files
-    #although i would want to take the folder instead
+Example dictionary configuration:
+database = {
+    'Documents': {'txt', 'pdf', 'docx'},
+    'Music': {'mp3', 'wav'},
+    'Pictures': {'jpg', 'png'},
+    'Videos': {'mp4', 'mov'}
+}
 
-2. take them to respective libraries
-    -get all libraries
-        -define them in a list (they are 4)
-    -put all gotten files in them
-        -if file ==any of the supported library files:
-            then put file into that library
-        
-e.g.
-audio={mp3,m4a,...}
-video={mp4,MOV, AVI,...}
-docs={rtf, txt,pdf, ...}
-
-we perform this operation first for individual 
-libraries then we can repeat with a loop.
-
-
-
-
-
-TODO future Features:
-    1. detecting the type of file from its content
-
-this app is a simple settings app 
-for the below function of arranging
-
-source folder is by default the Desktop folder
-
-so some settings can be to select only which files you want to move
-or we can just create a progress app with the logs
-
-progress bar
-logs bar
-
-
-The features are 
-1. adding my own filetype extension and linking it to a library TODO
-
+Dependencies: None beyond standard Python libraries.
 """
+
 import pathlib
 import os
 import time
