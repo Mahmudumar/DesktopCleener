@@ -38,7 +38,7 @@ To set up Desktop Cleener on your machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/desktop-cleener.git
+   git clone https://github.com/MahmudUmar/desktop-cleener.git
    ```
 
 ## Usage
