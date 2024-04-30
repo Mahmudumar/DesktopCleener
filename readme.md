@@ -19,3 +19,17 @@ To set up Desktop Cleener on your machine, follow these steps:
 
    ```bash
    git clone <https://github.com/yourusername/desktop-cleener.git>
+
+## Usage
+
+Before running the script, open the desktop_cleener.py file and locate the dictionary named database. Edit this dictionary to customize the file types and their respective target libraries:
+
+Example configuration dictionary:
+
+```python
+database = {
+    'Documents': {'txt', 'pdf', 'docx'},
+    'Music': {'mp3', 'wav'},
+    'Pictures': {'jpg', 'png'},
+    'Videos': {'mp4', 'mov'}
+}
