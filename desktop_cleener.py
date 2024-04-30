@@ -1,8 +1,39 @@
-import tkinter as tk
-import tkinter.ttk as ttk
-
 
 """
+An application that takes the files and folders from the desktop
+and puts it in the respective folder
+
+
+but i will begin with saying, a tool that takes files from desktop and 
+takes them to their respective libraries.
+
+1. Take files
+    -get all files in desktop
+    TODO:#perform a recursive search and get all files
+    #although i would want to take the folder instead
+
+2. take them to respective libraries
+    -get all libraries
+        -define them in a list (they are 4)
+    -put all gotten files in them
+        -if file ==any of the supported library files:
+            then put file into that library
+        
+e.g.
+audio={mp3,m4a,...}
+video={mp4,MOV, AVI,...}
+docs={rtf, txt,pdf, ...}
+
+we perform this operation first for individual 
+libraries then we can repeat with a loop.
+
+
+
+
+
+TODO future Features:
+    1. detecting the type of file from its content
+
 this app is a simple settings app 
 for the below function of arranging
 
@@ -22,6 +53,9 @@ The features are
 import pathlib
 import os
 import time
+import tkinter as tk
+import tkinter.ttk as ttk
+
 
 
 class App:
