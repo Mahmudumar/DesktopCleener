@@ -69,6 +69,12 @@ Contributions are welcome! Please feel free to fork the repository, make changes
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Support
+
+[Support this project by buying me a coffee!](https://buymeacoffee.com/mahmud777)
+
+
 ## Acknowledgements
 
 Thanks to all the contributors who have helped shape this project. Your contributions are greatly appreciated!
+
