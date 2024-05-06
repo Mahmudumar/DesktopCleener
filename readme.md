@@ -1,5 +1,7 @@
 
 # Desktop Cleener
+<img src="https://github.com/Mahmudumar/DesktopCleener/assets/90246975/fb69e6e4-c380-44d1-be87-3a6759c2d05e" alt="Desktop Cleener Logo" width="200" height="200">
+
 
 ## Introduction
 
@@ -71,10 +73,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-[Support this project by buying me a coffee!](https://buymeacoffee.com/mahmud777)
+[Support me here so that i can create more high quality apps!](https://paystack.com/pay/supportMahmud)
 
 
 ## Acknowledgements
 
-Thanks to all the contributors who have helped shape this project. Your contributions are greatly appreciated!
+Thanks to all the Supporters & Contributors who have helped shape this project. Your Contributions are greatly appreciated!
 
