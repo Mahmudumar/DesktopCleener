@@ -1,6 +1,7 @@
 
 # Desktop Cleener
-<img src="https://github.com/Mahmudumar/DesktopCleener/assets/90246975/fb69e6e4-c380-44d1-be87-3a6759c2d05e" alt="Desktop Cleener Logo" width="200" height="200">
+**create that organized desktop that you desire**
+<img src="https://github.com/Mahmudumar/DesktopCleener/assets/90246975/fb69e6e4-c380-44d1-be87-3a6759c2d05e" alt="Desktop Cleener Logo" width="100" height="100">
 
 
 ## Introduction
